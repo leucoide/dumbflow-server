@@ -1,0 +1,7 @@
+[database]
+url = 'mysql://root:rootroot@127.0.0.1/dumb'
+
+[broker]
+jobs_exchange = 'jobs'
+url = 'amqp://guest:guest@localhost:5672/%2F'
+
